@@ -46,6 +46,7 @@ Pytest (testing)
 redis-py(Clientes de Redis para Python)  
 
 ## Estructura del proyecto
+```
 distributed_cache_project/  
     cache/  
        distributed_cache.py    # Logica principal del sistema de cache  
@@ -55,7 +56,7 @@ distributed_cache_project/
     requirements.txt            # Dependencias del proyecto  
     docker-compose.yml          # Configuracion de Redis con Docker  
     README.md                   # Este archivo  
-
+```
 ## Autor
 Daniel D. Duarte  
 Oct 2025
