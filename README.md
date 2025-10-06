@@ -21,7 +21,7 @@ Se debe tener Docker corriendo, luego ejecutar:
 docker compose up -d 
 Esto levanta un contenedor Redis escuchando en el puerto 6379
 
-### Uso basico
+## Uso basico
 Para comprobar el comportamiento del cache, se puede ejecutar el archivo main.py
 python3 main.py
 Este script hace lo siguiente:
@@ -30,7 +30,7 @@ b. Recupera valores
 c. Elimina entradas o claves
 d. Muestra el manejo de expiracion automatica
 
-#### Pruebas
+### Pruebas
 El proyecto incluye pruebas unitarias usando pytest
 Para ejecutar las pruebas, con el entorno activo se ejecuta:
 PYTHONPATH=. pytest
@@ -38,14 +38,14 @@ Se deberia mostrar una salida que indica que las pruebas pasaron exitosamente:
 collected 4 items
 tests/test_cache.py ....      [100%]
 
-##### Stack tecnologico
+## Stack tecnologico
 Python 3.12+
 Redis (Para implementar el cache en memoria)
 Docker + Docker Compose
 Pytest (testing)
 redis-py(Clientes de Redis para Python)
 
-###### Estructura del proyecto
+## Estructura del proyecto
 distributed_cache_project/
     cache/
        distributed_cache.py    # Logica principal del sistema de cache
@@ -56,6 +56,6 @@ distributed_cache_project/
     docker-compose.yml          # Configuracion de Redis con Docker
     README.md                   # Este archivo
 
-###### Autor
+## Autor
 Daniel D. Duarte
 Oct 2025
