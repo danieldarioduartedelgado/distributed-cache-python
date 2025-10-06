@@ -33,17 +33,17 @@ d. Muestra el manejo de expiracion automatica
 ### Pruebas
 El proyecto incluye pruebas unitarias usando pytest  
 Para ejecutar las pruebas, con el entorno activo se ejecuta:  
-PYTHONPATH=. pytest
+PYTHONPATH=. pytest  
 Se deberia mostrar una salida que indica que las pruebas pasaron exitosamente:  
 collected 4 items  
 tests/test_cache.py ....      [100%]  
 
 ## Stack tecnologico
-Python 3.12+  
-Redis (Para implementar el cache en memoria)  
-Docker + Docker Compose  
-Pytest (testing)  
-redis-py(Clientes de Redis para Python)  
+- Python 3.12+  
+- Redis (Para implementar el cache en memoria)  
+- Docker + Docker Compose  
+- Pytest (testing)  
+- redis-py(Clientes de Redis para Python)  
 
 ## Estructura del proyecto
 ```
